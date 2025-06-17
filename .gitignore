@@ -1,0 +1,24 @@
+# Node (Vue)
+llg-web/node_modules/
+llg-web/dist/
+llg-web/.vitepress/
+llg-web/.output/
+llg-web/.env
+llg-web/.DS_Store
+
+# Laravel
+llg-api/vendor/
+llg-api/node_modules/
+llg-api/storage/*.key
+llg-api/.env
+llg-api/.DS_Store
+
+# Logs y otros
+*.log
+*.sqlite
+.env.local
+.env.*
+.idea/
+.vscode/
+.DS_Store
+roepard.ip-ddns.com.conf
