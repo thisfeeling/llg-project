@@ -9,15 +9,6 @@
 
 La documentación completa del proyecto está disponible en [GitHub Pages](https://thisfeeling.github.io/llg-project).
 
-### Estructura del Proyecto
-
-```
-/llg/
-├── llg-api/      # Backend Laravel 12
-├── llg-web/      # Frontend Vue 3 + Vite
-└── docs/         # Documentación
-```
-
 ## 🚀 Comenzar
 
 ### Requisitos
@@ -55,6 +46,3 @@ La documentación completa del proyecto está disponible en [GitHub Pages](https
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
-
-👤 **Autor**  
-[@thisfeeling](https://github.com/thisfeeling)
