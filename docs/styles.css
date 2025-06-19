@@ -1,0 +1,38 @@
+:root {
+  --theme-color: #155DFC;
+  --accent-color: #FDC700;
+  --text-color: #0A0A0A;
+  --sidebar-width: 280px;
+}
+
+.markdown-section code {
+  color: var(--accent-color);
+  background: rgba(253, 199, 0, 0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+pre[data-lang]::before {
+  content: attr(data-lang);
+  background: var(--theme-color);
+  color: white;
+  padding: 2px 10px;
+  font-size: 0.8em;
+  border-radius: 0 0 3px 3px;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #eaecef;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
