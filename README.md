@@ -1,66 +1,60 @@
-# llg-project - Liceo León de Greiff
-Repositorio para el Proyecto piloto de la pagina institucional para la IE Liceo León de Greiff acorde a las necesidades de la entidad.
+# Liceo León de Greiff - Proyecto Institucional
 
-> Documentación del Sistema de Gestión Institucional
+[![GitHub license](https://img.shields.io/github/license/thisfeeling/llg-project)](https://github.com/thisfeeling/llg-project)
+[![Documentación](https://img.shields.io/badge/docs-gitbook-blue)](https://thisfeeling.github.io/llg-project)
 
-[![GitHub license](https://img.shields.io/github/license/thisfeeling/llg)](https://github.com/thisfeeling/llg)
+> Plataforma web institucional para la gestión educativa del Liceo León de Greiff
 
-## 📚 Índice
+## 📖 Documentación
 
-- [🎨 Guía de Estilo](#-guía-de-estilo)
-  - [Colores Institucionales](#-colores-institucionales)
-  - [Tipografía](#-tipografía)
-- [🏛️ Estructura del Sitio](#️-estructura-del-sitio)
-- [🔐 Autenticación](#-autenticación)
-- [👥 Roles y Permisos](#-roles-y-permisos)
-- [🏠 Página Principal](#-página-principal)
-- [📢 Comunicación](#-comunicación)
-- [📊 Gestión Académica](#-gestión-académica)
-- [📝 Admisiones](#-admisiones)
-- [🎓 Servicios Estudiantiles](#-servicios-estudiantiles)
-- [💡 Proyecto de Vida](#-proyecto-de-vida)
-- [⚽ Cultura y Deportes](#-cultura-y-deportes)
-- [🛠️ Sistema](#️-sistema)
+La documentación completa del proyecto está disponible en [GitHub Pages](https://thisfeeling.github.io/llg-project).
 
----
+### Estructura del Proyecto
 
-## 🎨 Guía de Estilo
-
-### 🎨 Colores Institucionales
-
-#### Modo Oscuro
-- **Fondo Base**: `#101828` (RGB: 16, 24, 40)
-- **Recuadros**: `#1e2939` (RGB: 30, 41, 57)
-- **Texto Primario**: `#FFFFFF` (RGB: 255, 255, 255)
-- **Texto Secundario**: `#FDC700` (RGB: 253, 199, 0)
-- **Acentos**: `#155DFC` (RGB: 21, 93, 252)
-
-#### Modo Claro
-- **Fondo Base**: `#FFFFFF` (RGB: 255, 255, 255)
-- **Recuadros**: `#1e2939` (RGB: 30, 41, 57)
-- **Texto Primario**: `#0A0A0A` (RGB: 10, 10, 10)
-- **Texto Secundario**: `#FDC700` (RGB: 253, 199, 0)
-- **Acentos**: `#155DFC` (RGB: 21, 93, 252)
-
-### 🔤 Tipografía
-- **Principal**: [Inter](https://fonts.google.com/specimen/Inter)
-- **Secundaria**: [Roboto](https://fonts.google.com/specimen/Roboto)
-
----
-
-## 🏛️ Estructura del Sitio
-
-```plaintext
+```
 /llg/
 ├── llg-api/      # Backend Laravel 12
 ├── llg-web/      # Frontend Vue 3 + Vite
 └── docs/         # Documentación
 ```
 
-## Acceso piloto
+## 🚀 Comenzar
 
-- Producción: [https://roepard.ip-ddns.com](https://roepard.ip-ddns.com)
+### Requisitos
+- PHP 8.3+
+- Node.js 18+
+- Composer 2.5+
+- MySQL 8.0+
 
-## Autor
+### Instalación
 
-- [@thisfeeling](https://github.com/thisfeeling)
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/thisfeeling/llg-project.git
+   cd llg-project
+   ```
+
+2. Instala dependencias del backend:
+   ```bash
+   cd llg-api
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+3. Configura la base de datos en `.env`
+
+4. Instala dependencias del frontend:
+   ```bash
+   cd ../llg-web
+   npm install
+   ```
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+👤 **Autor**  
+[@thisfeeling](https://github.com/thisfeeling)
