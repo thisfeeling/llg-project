@@ -23,16 +23,19 @@ pre[data-lang]::before {
 
 /* Estilos para la barra lateral */
 .sidebar {
-  background-color: #f8f9fa;
-  border-right: 1px solid #eaecef;
+  background-color: #1e2939 !important; /* Fondo oscuro */
+  border-right: 1px solid #222c38 !important;
 }
 
-/* Estilos para los enlaces */
+body, .markdown-section {
+  background-color: #101828 !important;
+  color: #fff !important;
+}
+
 a {
-  color: var(--theme-color);
+  color: #FDC700 !important; /* Amarillo institucional */
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }

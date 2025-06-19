@@ -1,6 +1,6 @@
 # Liceo León de Greiff - Proyecto Institucional
 
-[![GitHub license](https://img.shields.io/github/license/thisfeeling/llg-project)](https://github.com/thisfeeling/llg-project)
+[![GitHub license](https://img.shields.io/github/license/thisfeeling/llg-project)](https://github.com/thisfeeling/llg-project/blob/llg-main/LICENSE)
 [![Documentación](https://img.shields.io/badge/docs-gitbook-blue)](https://thisfeeling.github.io/llg-project)
 
 > Plataforma web institucional para la gestión educativa del Liceo León de Greiff

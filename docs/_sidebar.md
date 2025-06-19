@@ -1,5 +1,7 @@
 - [🏠 Inicio](/)
-- [🎨 Guía de Estilo](/guia-estilo)
+- [🎨 Guía de Estilo](/guia-estilos)
+- [👀 Mockup](/mockup)
+- [📱 Desarrollo](/desarrollo)
 - [🔐 Autenticación](/autenticacion)
 - [👥 Roles y Permisos](/roles-permisos)
 - [🏛️ Estructura](/estructura)
@@ -10,3 +12,4 @@
 - [💡 Proyecto de Vida](/proyecto-vida)
 - [⚽ Deportes](/deportes)
 - [🛠️ Sistema](/sistema)
+- [✨ Acerca de](/acerca-de)
