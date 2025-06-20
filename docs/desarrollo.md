@@ -8,7 +8,7 @@
 1. [Requisitos](#requisitos)
 2. [Objetivo del Proyecto](#objetivo-del-proyecto)
 3. [Tareas del Proyecto](#tareas-del-proyecto)
-4. [Bases de Instalación](#bases-de-instalación)
+4. [Bases de Instalación](#bases-de-instalacion)
 5. [Comandos Esenciales](#comandos-esenciales)
 6. [Permisos del Sistema](#permisos-del-sistema)
 7. [Servidor Nginx](#servidor-nginx)
@@ -17,10 +17,11 @@
 10. [Roles y Permisos (Spatie)](#roles-y-permisos-spatie)
 11. [CRUD de Usuarios](#crud-de-usuarios)
 12. [Estructura del Proyecto](#estructura-del-proyecto)
-13. [Recursos Útiles](#recursos-útiles)
+13. [Recursos Útiles](#recursos-utiles)
 
 ---
 
+<a id="requisitos"></a>
 ## 🖥️ Requisitos
 
 ### 🧑‍💻 Para desarrolladores
@@ -57,12 +58,14 @@ Navegador: Chrome 137 / Firefox 137 o superior
 
 ---
 
+<a id="objetivo-del-proyecto"></a>
 ## 🎯 Objetivo del Proyecto
 
 > Proveer una plataforma integral (backend Laravel + frontend Vue) para la gestión del sitio web institucional del **Liceo León de Greiff**. Este proyecto piloto respalda la tesis técnica, fomenta el uso ético de las TIC y sirve de guía educativa.
 
 ---
 
+<a id="tareas-del-proyecto"></a>
 ## 🗂️ Tareas del Proyecto
 
 - [ ] Configurar base de datos MySQL
@@ -75,6 +78,7 @@ Navegador: Chrome 137 / Firefox 137 o superior
 
 ---
 
+<a id="bases-de-instalacion"></a>
 ## 🧊 Bases de Instalación
 
 ```bash
@@ -105,6 +109,7 @@ sudo certbot --nginx -d <tu_dominio>
 
 ---
 
+<a id="bases-del-proyecto"></a>
 ## 🚀 Bases del Proyecto
 
 Pasos rápidos para instalar **llg-project** en `/var/www/llg`:
@@ -135,6 +140,7 @@ php artisan migrate
 
 ---
 
+<a id="comandos-esenciales"></a>
 ## 🧷 Comandos Esenciales
 
 ### ⚙️ Laravel
@@ -161,6 +167,7 @@ php artisan optimize && npm run build       # Producción completa
 
 ---
 
+<a id="permisos-del-sistema"></a>
 ## 🚩 Permisos del Sistema
 
 ```bash
@@ -177,6 +184,7 @@ sudo chmod -R ug+rwx /var/www/llg/storage /var/www/llg/bootstrap/cache
 
 ---
 
+<a id="servidor-nginx"></a>
 ## 💻 Servidor Nginx
 
 Ejemplo de *server block* con placeholders (rellena los valores entre <>):
@@ -215,6 +223,7 @@ server {
 
 ---
 
+<a id="variables-de-entorno"></a>
 ## 🎯 Variables de Entorno
 
 ```dotenv
@@ -231,6 +240,7 @@ DB_PASSWORD=<db_pass>
 
 ---
 
+<a id="apartados-en-laravel-y-vue"></a>
 ## ⚓ Apartados en Laravel y Vue
 
 ```
@@ -252,6 +262,7 @@ php artisan make:controller Student/GradesController
 
 ---
 
+<a id="roles-y-permisos-spatie"></a>
 ## 📇 Roles y Permisos (Spatie)
 
 <!-- tabs:start -->
@@ -297,6 +308,7 @@ php artisan make:controller Student/GradesController
 
 ---
 
+<a id="crud-de-usuarios"></a>
 ## ⚒️ CRUD de Usuarios (Laravel + Inertia + Vue)
 
 <!-- tabs:start -->
@@ -320,6 +332,7 @@ php artisan make:controller Student/GradesController
 
 ---
 
+<a id="estructura-del-proyecto"></a>
 ## 🏗️ Estructura del Proyecto
 
 ```text
@@ -332,6 +345,7 @@ php artisan make:controller Student/GradesController
 
 ---
 
+<a id="recursos-utiles"></a>
 ## ⛵ Recursos Útiles
 
 - 🌐 Laravel 12: https://laravel.com/docs/12.x

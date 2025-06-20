@@ -12,6 +12,9 @@
 </head>
 <body>
   <div id="app"></div>
+  
+  <!-- Botón flotante para volver arriba -->
+  <button id="topBtn" class="back-to-top" title="Ir arriba">↑</button>
   <script>
     window.$docsify = {
       name: '<img src="images/sidebar_logo.png" class="sidebar-logo"><span class="sidebar-title">Liceo León de Greiff</span>',
@@ -46,5 +49,15 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+  <script>
+    const topBtn = document.getElementById('topBtn');
+    window.addEventListener('scroll', () => {
+      topBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+    topBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
