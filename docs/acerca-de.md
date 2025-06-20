@@ -6,7 +6,7 @@
 
 ### 📝 Autores
 
-- [@thisfeeling](https://github.com/thisfeeling), [Contacto](mailto:murksopps@gmail.com). Desarrollador del proyecto.
+- Stiven [@thisfeeling](https://github.com/thisfeeling), [Contacto](mailto:murksopps@gmail.com). Desarrollador del proyecto.
 
 ### 📄 Licencia
 
