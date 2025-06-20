@@ -1,33 +1,64 @@
-## ✏️ Estilos a tener en cuenta
+# 🎨 Guía de Estilos – llg-project
 
-### 📍 Colores Institucionales
-
-<style>
-a { color: #101828 }
-b { color: #1e2939 }
-c { color: #FFFFFF }
-d { color: #FDC700 }
-e { color: #155DFC }
-f { color: #0A0A0A }
-g { font-weight: bold }
-</style>
-
-#### Modo Oscuro
-- **Fondo Base**: `#101828` <g><a>(RGB: 16, 24, 40)</a></g>
-- **Recuadros**: `#1e2939` <g><b>(RGB: 30, 41, 57)</b></g>
-- **Texto Primario**: `#FFFFFF` <g><c>(RGB: 255, 255, 255)</c></g>
-- **Texto Secundario**: `#FDC700` <g><d>(RGB: 253, 199, 0)</d></g>
-- **Acentos**: `#155DFC` <g><e>(RGB: 21, 93, 252)</e></g>
-
-#### Modo Claro
-- **Fondo Base**: `#FFFFFF` <g><c>(RGB: 255, 255, 255)</c></g>
-- **Recuadros**: `#1e2939` <g><b>(RGB: 30, 41, 57)</b></g>
-- **Texto Primario**: `#0A0A0A` <g><f>(RGB: 10, 10, 10)</f></g>
-- **Texto Secundario**: `#FDC700` <g><d>(RGB: 253, 199, 0)</d></g>
-- **Acentos**: `#155DFC` <g><e>(RGB: 21, 93, 252)</e></g>
-
-### 🔤 Tipografía
-- **Principal**: [Inter](https://fonts.google.com/specimen/Inter)
-- **Secundaria**: [Roboto](https://fonts.google.com/specimen/Roboto)
+> Referencia rápida de colores, tipografía y componentes.
 
 ---
+
+## 📍 Paleta de Colores
+
+<!-- tabs:start -->
+### **Modo Oscuro**
+| Uso | Hex | RGB |
+|-----|-----|-----|
+| Fondo Base | `#101828` | 16,24,40 |
+| Recuadros | `#1e2939` | 30,41,57 |
+| Texto Primario | `#FFFFFF` | 255,255,255 |
+| Texto Secundario | `#FDC700` | 253,199,0 |
+| Acentos | `#155DFC` | 21,93,252 |
+
+### **Modo Claro**
+| Uso | Hex | RGB |
+|-----|-----|-----|
+| Fondo Base | `#FFFFFF` | 255,255,255 |
+| Recuadros | `#1e2939` | 30,41,57 |
+| Texto Primario | `#0A0A0A` | 10,10,10 |
+| Texto Secundario | `#FDC700` | 253,199,0 |
+| Acentos | `#155DFC` | 21,93,252 |
+<!-- tabs:end -->
+
+```css
+:root {
+  --color-primary: #155DFC;
+  --color-secondary: #FDC700;
+  --color-dark-bg: #101828;
+}
+```
+
+---
+
+## 🔤 Tipografía
+
+| Variante | Fuente | Uso Sugerido |
+|----------|--------|--------------|
+| **Inter** | Sans Serif | Texto principal, UI |
+| **Roboto** | Sans Serif | Cuerpos largos |
+
+---
+
+## 🧩 Componentes Vue / Tailwind
+
+Usa clases utilitarias siguiendo [BEM](https://getbem.com/) reducido.
+
+```vue
+<template>
+  <button class="btn-primary">Guardar</button>
+</template>
+
+<style scoped>
+.btn-primary {
+  @apply bg-primary text-white font-semibold py-2 px-4 rounded;
+}
+</style>
+```
+
+

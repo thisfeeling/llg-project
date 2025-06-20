@@ -1,13 +1,26 @@
-# IE Liceo León de Greiff - llg-project
+# IE Liceo León de Greiff 
 Repositorio para el Proyecto piloto de la pagina institucional para la IE Liceo León de Greiff acorde a las necesidades de la entidad.
 
-> Documentación del Sistema de Gestión Institucional rev0.0.0
+<p align="center">
+  <img src="images/logo.png" width="80" />
+</p>
 
-## 📚 Índice
+# 📖 Documentación – **llg-project**
 
-- [🎨 Guía de Estilo](guia-estilos) `Una guía de estilos y colores institucionales para el proyecto.`
-- [👀 Mockup](mockup) `Preview del diseño del proyecto.`
-- [📱 Desarrollo](desarrollo) `Como se llevo a cabo el desarrollo del proyecto.`
-- [✨ Acerca de](acerca-de) `Acerca del proyecto y recursos implicados.`
+> Manual vivo del Sistema de Gestión Institucional del **Liceo León de Greiff**.
+
+<span style="font-size:0.8rem;">Versión 0.0.0 • Última actualización: 2025-06-20</span>
 
 ---
+
+## 🗂️ Navegación Rápida
+
+| Sección | Descripción |
+|---------|-------------|
+| 🎨 **[Guía de Estilo](guia-estilos)** | Paleta de colores, tipografías y componentes. |
+| 👀 **[Mockup](mockup)** | Vistazo visual al diseño de la plataforma. |
+| 🛠️ **[Desarrollo](desarrollo)** | Pasos de instalación, comandos, Nginx, roles y más. |
+| ✨ **[Acerca de](acerca-de)** | Información del proyecto, equipo y roadmap. |
+
+---
+<p align="center">Sugerencias bienvenidas en la sección Discussions 🙌</p>

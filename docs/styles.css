@@ -86,3 +86,10 @@ a:hover {
   color: #fff !important;
   font-weight: bold;
 }
+
+/* docs/styles.css */
+.markdown-section table img {
+  width: 40px;      /* alto y ancho iguales */
+  height: 40px;
+  border-radius: 50%; /* opcional: redondear */
+}
